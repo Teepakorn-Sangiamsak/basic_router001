@@ -9,6 +9,7 @@ import Register from '../pages/Register'
 import Dashboard from '../pages/admin/Dashboard'
 import Manage from '../pages/admin/Manage'
 import Setting from '../pages/admin/Setting'
+import Recap from '../pages/Recap'
 
 
 function AppRoutes() {
@@ -23,6 +24,8 @@ function AppRoutes() {
         <Route path="contact" element={<Contact/>}/>
         <Route path="login" element={<LoginPage/>}/>
         <Route path="register" element={<Register/>}/>
+        
+        <Route path="recap" element={<Recap/>}/>
         </Route>
 
         {/* Private */}
